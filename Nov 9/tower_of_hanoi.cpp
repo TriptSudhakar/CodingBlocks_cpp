@@ -11,7 +11,7 @@ void toh(int n, char src, char helper, char dest)
     
     // recursive case
     toh(n-1, src, dest, helper);
-    cout<<"Take "<<n<<" disc from "<<src<<" to "<<dest<<endl;
+    cout<<"Take disc "<<n<<" from "<<src<<" to "<<dest<<endl;
     toh(n-1, helper, src, dest);
 }
 
