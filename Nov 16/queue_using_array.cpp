@@ -39,7 +39,7 @@ class queue
         {
             if (cs > 0)
             {
-                f = (f+1)/n;
+                f = (f+1)%n;
                 cs --;
             }
             else
